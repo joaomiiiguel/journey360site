@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Nossos serviços',
-    paragraph: 'Utilizamos várias técnicas diferentes, sempre adequando da melhor forma as últimas tecnologias em VR / AR e tour virtual.'
+    title: 'Desenvolvimento sob demanda',
+    paragraph: 'Utilizamos das atuais tecnologias e equipamentos do mercado para criarmos soluções personalizadas e inovadoras para seu negócio.'
   };
 
   return (
@@ -68,10 +68,10 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <h3 className="mt-0 mb-12 text-color-primary">
                   Tour Virtual
-                  </h3>
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Recurso interativo que permite aos visitantes do seu site visualizarem fotos em 360 graus do seu negócio e que pode ser personalizada com recursos de sons,  textos e links.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -89,13 +89,13 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                
+
                 <h3 className="mt-0 mb-12 text-color-primary">
-                  Experiências Virtuais
-                  </h3>
+                  Produtora de vídeos
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Somos uma produtora audiovisual que atende perfeitamente às suas demandas para produções publicitárias, institucionais, eventos e gravações de cursos. Além de oferecer a modalidade em 360 graus dos ambientes, sem perder a qualidade de imagens, sons e detalhes.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -113,13 +113,13 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                
+
                 <h3 className="mt-0 mb-12 text-color-primary">
-                  Eventos Virtuais
-                  </h3>
+                  Desenvolvimento de sites e apps
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Para hospedar de forma personalizada seus produtos, também criamos soluções na web como websites e aplicativos. Plataformas leves e com recursos que atendam suas demandas.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -135,6 +135,77 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+
+                <h3 className="mt-0 mb-12 text-color-primary">
+                  Produção de Eventos Virtuais/Híbridos
+                </h3>
+                <p className="m-0">
+                  Construimos o seu evento proporcionando uma experiência personalizada para seu nicho. Criando soluções que aliam a exigência de novidades tecnológicas e a criatividade para romper os limites físicos em meio a nova fase de eventos.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+
+                <h3 className="mt-0 mb-12 text-color-primary">
+                  Produtora de cursos online
+                </h3>
+                <p className="m-0">
+                  Produziremos com você desde o planejamento da estrutura de seu curso, desenvolvimento de plataforma, gravações de conteúdo e lançamento de seu produto.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+
+                <h3 className="mt-0 mb-12 text-color-primary">
+                  Mídia Paga Online
+                </h3>
+                <p className="m-0">
+                  Gerenciamos e executamos as melhores estratégias para seu negócio, com o planejamento de sua mídia paga online.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

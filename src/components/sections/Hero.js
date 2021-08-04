@@ -54,12 +54,12 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Desenvolvemos soluções inovadoras para divulgar sua empresa de forma mais completa, em 360°
+                Desenvolvemos soluções inovadoras para divulgar sua empresa de forma criativa com experiências em 360°
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#">
-                    Saiba Mais
+                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://api.whatsapp.com/send?phone=5583999943643&text=Ol%C3%A1%2C%20Fiquei%20interessado(a)%20no%20servi%C3%A7o%20da%20Journey360%20Studio.">
+                    Solicite um orçamento
                   </Button>
                 </ButtonGroup>
               </div>
@@ -67,11 +67,11 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <iframe
-              title="Tour Exemplo - Journey" 
+              title="Tour Exemplo - Journey"
               width={896}
               height={504}
-              className="has-shadow" 
-              src="https://app.lapentor.com/sphere/site-journey" 
+              className="has-shadow"
+              src="https://app.lapentor.com/sphere/site-journey"
               style={{ height: '50vh', width: '100%', border: 0 }} ></iframe>
 
           </div>

@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Nós desenvolvemos experiências',
-    paragraph: 'Tours Virtuais 360 permitem visitar lugares pela internet, sem a necessidade de ir pessoalmente ao local. Alguns dos benefícios que o mercado obtém ao utilizar Tours Virtuais 360 em sua apresentação.'
+    title: 'Novas conexões com clientes',
+    paragraph: 'Criar tour virtual 360 em seu negócio possibilita uma nova conexão com seus clientes, além de benefícios em sua presença digital como:'
   };
 
   return (
@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                     Retenção de clientes
                   </h4>
                   <p className="m-0 text-sm">
-                    Segundo pesquisas, o tempo médio de visita em uma página com Tour Virtual 360 chega a ser  5X maior que em uma página sem Tour Virtual.
+                    Segundo pesquisas, o Tour Virtual 360 em sua página aumenta o tempo médio de visitas em até 5x.
                   </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Diferencial competitivo
+                    Diferencial competitivo
                   </h4>
                   <p className="m-0 text-sm">
-                  O tour pode ser percebido pelo seu público de forma muito positiva, já que mostra uma empresa antenada com a tecnologia e as novidades do mercado.
+                    O tour pode ser percebido pelo seu público de forma muito positiva, já que mostra uma empresa antenada com a tecnologia e as novidades do mercado.
                   </p>
                 </div>
               </div>
@@ -136,10 +136,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Facilidade de nova visita
+                    Visitas ilimitadas
                   </h4>
                   <p className="m-0 text-sm">
-                    A visitação é online e pode ser feita a qualquer momento do dia e por várias pessoas ao mesmo tempo. Mas outra vantagem do tour virtual é a possibilidade de revisitação no mesmo dia ou por quantas vezes quiser.
+                    A visitação é online, gratuita sem limites de acesso, horários e quantidade de usuários simultâneos.
                   </p>
                 </div>
               </div>
@@ -157,10 +157,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Praticidade
+                    Praticidade
                   </h4>
                   <p className="m-0 text-sm">
-                  Não é preciso agendar horário e a visitação pode ocorrer a qualquer hora do dia por diversas pessoas. Assim, recebem um número alto de visitas com menor custo operacional.
+                    Não é preciso agendar horário e a visitação pode ocorrer a qualquer hora do dia por diversas pessoas. Assim, recebem um número alto de visitas com menor custo operacional.
                   </p>
                 </div>
               </div>
@@ -178,10 +178,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Melhor resultados de pesquisa do Google
+                    Melhores resultados no Google
                   </h4>
                   <p className="m-0 text-sm">
-                  Com a potência do tempo de visita no seu site, o tour virtual atua diretamente nas pesquisas orgânicas, contribuindo para um melhor ranqueamento, ajudando assim seu posicionamento nos primeiros resultados de busca.
+                    O tour virtual atua diretamente no aumento de suas pesquisas orgânicas, contribuindo para um melhor ranqueamento nos primeiros resultados de busca.
                   </p>
                 </div>
               </div>

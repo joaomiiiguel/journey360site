@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Quem já se encantou com os nossos projetos',
-    paragraph: 'Trabalhamos para criar experiências personalizadas para cada desafio, desenvolvemos aplicações imersivas que possam encantar nossos clientes e parceiros.'
+    paragraph: 'A cada desafio entregamos soluções personalizadas, criativas e aplicações imersivas que encantem os clientes e parceiros.'
   };
 
   return (
@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — Gostamos muito do resultado. Hoje o tour em nossa pousada/restaurante faz parte de nossa divulgação e um dos primeiros links que compartilhamos ao conversar com os nossos hóspedes e clientes.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">José Paulo Nunes</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Restaurante e Pousada Rancho da Ema</a>
                   </span>
                 </div>
               </div>
@@ -79,25 +79,25 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — O tour virtual une a tecnologia para apresentar o nosso sonho para mais pessoas. A pousada Matuto Sonhador está localizada no Cariri Paraibano e quando apresentamos o passeio virtual para os hóspedes a ansiedade de conhecer nosso espaço aumenta.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">Sergiano Xavier</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Pousada Matuto Sonhador</a>
                   </span>
                 </div>
               </div>
             </div>
-
+{/* 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Ben Stafford</span>
@@ -108,7 +108,7 @@ const Testimonial = ({
                 </div>
               </div>
             </div>
-
+*/}
           </div>
         </div>
       </div>

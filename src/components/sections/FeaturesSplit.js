@@ -80,7 +80,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/servico01.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -104,7 +104,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/servico02.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -128,7 +128,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/servico03.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -152,7 +152,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/servico04.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -176,7 +176,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/servico05.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -200,7 +200,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/servico06.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />

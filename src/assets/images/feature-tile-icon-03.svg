@@ -1,1 +1,13 @@
-<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g stroke-width="2" fill="none" fill-rule="evenodd"><ellipse stroke="#ACADFF" stroke-linecap="square" cx="32" cy="32" rx="5.5" ry="11"/><path d="M32 21v22M21 32h22" stroke="#FFF"/><circle stroke="#FFF" stroke-linecap="square" cx="32" cy="32" r="11"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<path class="st0" d="M17.2,45.4l-3.7,0.5l2.7,2.6l-0.7,3.6l3.3-1.7l3.3,1.7l-0.7-3.6l2.7-2.6l-3.7-0.5l-1.6-3.3
+	C18.9,42.1,17.2,45.4,17.2,45.4z M30.6,45.4L27,45.9l2.7,2.6L29,52.1l3.3-1.7l3.3,1.7l-0.7-3.6l2.7-2.6l-3.7-0.5l-1.6-3.3
+	C32.3,42.1,30.6,45.4,30.6,45.4z M43.5,45.4l-3.7,0.5l2.7,2.6l-0.7,3.6l3.3-1.7l3.3,1.7l-0.7-3.6l2.7-2.6l-3.7-0.5l-1.6-3.3
+	C45.1,42.1,43.5,45.4,43.5,45.4z M43.3,33.4c-4.1-0.9-8.7-1.8-6.9-5.2C42,17.6,37.9,11.9,32,11.9c-6,0-10,5.9-4.4,16.2
+	c1.9,3.5-2.9,4.3-6.9,5.2c-3.6,0.8-3.8,2.7-3.8,5.8l0,1.2h30.2l0-1.1C47.1,36,47,34.2,43.3,33.4z"/>
+</svg>

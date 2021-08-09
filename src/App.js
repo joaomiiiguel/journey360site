@@ -14,6 +14,12 @@ import Portfolio from './views/Portfolio';
 import SobreNos from './views/SobreNos';
 import Contato from './views/Contato';
 
+import RanchoEma from './views/portfolio/tourRanchoEma';
+import MatutoSonhador from './views/portfolio/tourMatutoSonhador';
+import DiaD from './views/portfolio/eventoDiaD';
+import ECMO from './views/portfolio/eventoECMO';
+import BodeRei from './views/portfolio/eventoBodeRei';
+
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
@@ -45,6 +51,12 @@ const App = () => {
           <AppRoute path="/Portfolio" component={Portfolio} layout={LayoutDefault} />
           <AppRoute path="/SobreNos" component={SobreNos} layout={LayoutDefault} />
           <AppRoute path="/Contato" component={Contato} layout={LayoutDefault} />
+
+          <AppRoute path="/Tour-Rancho-Ema" component={RanchoEma} layout={LayoutDefault} />
+          <AppRoute path="/Tour-Matuto-Sonhador" component={MatutoSonhador} layout={LayoutDefault} />
+          <AppRoute path="/Evento-Dia-D" component={DiaD} layout={LayoutDefault} />
+          <AppRoute path="/Evento-ECMO" component={ECMO} layout={LayoutDefault} />
+          <AppRoute path="/Evento-Bode-Rei" component={BodeRei} layout={LayoutDefault} />
         </Switch>
       )} />
   );

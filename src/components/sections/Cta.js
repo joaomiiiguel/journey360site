@@ -61,7 +61,7 @@ const Cta = ({
           <div className="cta-action">
             <ButtonGroup>
               <Button tag="a" color="light" wideMobile href="https://api.whatsapp.com/send?phone=5583999943643&text=Ol%C3%A1%2C%20Fiquei%20interessado(a)%20no%20servi%C3%A7o%20da%20Journey360%20Studio." target="_blank">
-                Click para marcar uma reunião
+                Solicite o orçamento
               </Button>
             </ButtonGroup>
           </div>

@@ -47,7 +47,7 @@ const SobreNos = () => {
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-32">
                     <Image
-                      src={require('../assets/images/skar.jpg')}
+                      src={require('../assets/images/skar.png')}
                       alt="Features tile icon 03"
                       width={150}
                       height={150}

@@ -15,7 +15,11 @@ const DiaD = () => {
                 </h4>
                 <div className="container-sm">
                     <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                        O restaurante e pousada Rancho da Ema é considerado um oásis no Cariri Paraibano. Prezamos pelo bem estar dos nossos clientes, oferecendo a melhor estrutura da cidade, contamos com 19 apartamentos com uma estrutura aconchegante, espaço verde para crianças, área de lazer com piscina com tobogã e cascata, quartos com piscina exclusiva e restaurante que oferece a melhor comida da região. Além de um dos pontos mais visitados de Cabaceiras, a cenografia utilizada no filme “O Auto da Compadecida”, a casinha e local de enterro da cachorra da personagem Dora (Denise Fraga).
+                        Um grupo de médicos paraibanos promoveram um webinar gratuito sobre a ECMO (Extracorporeal Membrane Oxygenation), sigla para Oxigenação por Membrana Extracorpórea, no tratamento do paciente com Covid-19.
+                        <br /><br />
+                        O evento foi online e gratuito que uniu renomes da área da medicina regional e nacional, transmitido em João Pessoa com participações remotas. A iniciativa do evento é da Dra Priscila Gomes Dantas e contou com o apoio de instituições de ensino e da área de serviços de saúde.
+                        <br /><br />
+                        Fomos responsáveis pela produção do evento, comunicação/divulgação, inscrição e transmissão online.
                     </p>
                 </div>
                 <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">

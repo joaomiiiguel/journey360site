@@ -45,7 +45,7 @@ const Portfolio = ({
             <div className="reveal-from-bottom" data-reveal-delay="200" style={{ display: 'flex', flexWrap:'wrap', justifyContent:'space-between'}}>
 
               <div className="split-item" style={{margin: 10}}>
-                <a href="/Tour-Rancho-Ema" data-reveal-container=".split-item" >
+                <a href="/tourema" data-reveal-container=".split-item" >
                   <Image
                     src={require('../assets/images/EmaCapa.jpg')}
                     alt="Features split 01"

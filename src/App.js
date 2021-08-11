@@ -14,7 +14,7 @@ import Portfolio from './views/Portfolio';
 import SobreNos from './views/SobreNos';
 import Contato from './views/Contato';
 
-import RanchoEma from './views/portfolio/tourRanchoEma';
+import RanchoEma from './views/portfolio/RanchoEma';
 import MatutoSonhador from './views/portfolio/tourMatutoSonhador';
 import DiaD from './views/portfolio/eventoDiaD';
 import ECMO from './views/portfolio/eventoECMO';
@@ -51,8 +51,7 @@ const App = () => {
           <AppRoute path="/Portfolio" component={Portfolio} layout={LayoutDefault} />
           <AppRoute path="/SobreNos" component={SobreNos} layout={LayoutDefault} />
           <AppRoute path="/Contato" component={Contato} layout={LayoutDefault} />
-
-          <AppRoute path="/Tour-Rancho-Ema" component={RanchoEma} layout={LayoutDefault} />
+          <AppRoute path="/tourema" component={RanchoEma} layout={LayoutDefault} />
           <AppRoute path="/Tour-Matuto-Sonhador" component={MatutoSonhador} layout={LayoutDefault} />
           <AppRoute path="/Evento-Dia-D" component={DiaD} layout={LayoutDefault} />
           <AppRoute path="/Evento-ECMO" component={ECMO} layout={LayoutDefault} />

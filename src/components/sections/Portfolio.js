@@ -90,7 +90,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
                 <ButtonGroup>
-                  <Button color="primary" wideMobile target="_blank" href="https://tourranchoema.journey360.com.br" style={{ width: '100%', marginTop: 50 }}>
+                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://tourranchoema.journey360.com.br" style={{ width: '100%', marginTop: 50 }}>
                     Faça um tour virtual
                   </Button>
                 </ButtonGroup>
@@ -207,7 +207,7 @@ const FeaturesSplit = ({
                   Site Institucional / Canadá
                 </h5>
                 <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  Nós desenvolvemos um site institucional para o aplicativo Centra, um app para conectar clientes que comprem produtos alimentícios de diversos países, vendedores desses alimentos e que sejam entregues em pouco tempo.                  
+                  Nós desenvolvemos um site institucional para um projeto de aplicativo, um app para conectar clientes que comprem produtos alimentícios de diversos países, vendedores desses alimentos e que sejam entregues em pouco tempo.                  
                 </p>
               </div>
               <div className={

@@ -182,30 +182,6 @@ const FeaturesSplit = ({
                   height={396} />
               </div>
             </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-
-                <h3 className="mt-0 mb-12 text-color-primary">
-                  Mídia Paga Online
-                </h3>
-                <p className="m-0">
-                  Gerenciamos e executamos as melhores estratégias para seu negócio, com o planejamento de sua mídia paga online.
-                </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/servico06.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
           </div>
         </div>
       </div>

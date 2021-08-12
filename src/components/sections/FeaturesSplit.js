@@ -64,12 +64,12 @@ const FeaturesSplit = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <h3 className="mt-0 mb-12 text-color-primary">
+            <div className="split-item ">
+              <div className="split-item-content  center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <h3 className="mt-8 mb-12 text-color-primary">
                   Tour Virtual
                 </h3>
-                <p className="m-0">
+                <p className="mb-16">
                   Recurso interativo que permite aos visitantes do seu site visualizarem fotos em 360 graus do seu negócio e que pode ser personalizada com recursos de sons,  textos e links.
                 </p>
               </div>

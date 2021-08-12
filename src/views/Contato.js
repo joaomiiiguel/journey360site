@@ -15,6 +15,11 @@ const Contato = () => {
           <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
             Olá, quer saber mais sobre a Journey360 Studio e dos nossos serviços?
           </p>
+
+          <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+          Telefones: (83) 9 8139-0385 / (83) 9 9994-3643 <br/>
+          E-mail: journeystudio360@gmail.com
+          </p>
           <div className="reveal-from-bottom" data-reveal-delay="600">
             <CTA />
           </div>

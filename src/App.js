@@ -9,8 +9,6 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-import Servicos from './views/Servicos';
-import Portfolio from './views/Portfolio';
 import SobreNos from './views/SobreNos';
 import Contato from './views/Contato';
 
@@ -47,15 +45,8 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute path="/Servicos" component={Servicos} layout={LayoutDefault} />
-          <AppRoute path="/Portfolio" component={Portfolio} layout={LayoutDefault} />
           <AppRoute path="/SobreNos" component={SobreNos} layout={LayoutDefault} />
           <AppRoute path="/Contato" component={Contato} layout={LayoutDefault} />
-          <AppRoute path="/tourema" component={RanchoEma} layout={LayoutDefault} />
-          <AppRoute path="/Tour-Matuto-Sonhador" component={MatutoSonhador} layout={LayoutDefault} />
-          <AppRoute path="/Evento-Dia-D" component={DiaD} layout={LayoutDefault} />
-          <AppRoute path="/Evento-ECMO" component={ECMO} layout={LayoutDefault} />
-          <AppRoute path="/Evento-Bode-Rei" component={BodeRei} layout={LayoutDefault} />
         </Switch>
       )} />
   );

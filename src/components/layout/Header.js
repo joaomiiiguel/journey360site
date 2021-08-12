@@ -113,10 +113,10 @@ const Header = ({
                     )}>
                     {/*<li>
                       <Link to="/Servicos" onClick={closeMenu}>Serviços</Link>
-                    </li>*/}
+                    </li>
                     <li>
                       <Link to="/Portfolio" onClick={closeMenu}>Portfólio</Link>
-                    </li>
+                    </li>*/}
                     <li>
                       <Link to="/SobreNos" onClick={closeMenu}>Sobre Nós</Link>
                     </li>

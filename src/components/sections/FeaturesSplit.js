@@ -87,29 +87,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-
-                <h3 className="mt-0 mb-12 text-color-primary">
-                  Produtora de vídeos
-                </h3>
-                <p className="m-0">
-                  Somos uma produtora audiovisual que atende perfeitamente às suas demandas para produções publicitárias, institucionais, eventos e gravações de cursos. Além de oferecer a modalidade em 360 graus dos ambientes, sem perder a qualidade de imagens, sons e detalhes.
-                </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/servico02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
+            
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -135,53 +113,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-
-                <h3 className="mt-0 mb-12 text-color-primary">
-                  Produção de Eventos Virtuais/Híbridos
-                </h3>
-                <p className="m-0">
-                  Construimos o seu evento proporcionando uma experiência personalizada para seu nicho. Criando soluções que aliam a exigência de novidades tecnológicas e a criatividade para romper os limites físicos em meio a nova fase de eventos.
-                </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/servico04.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-
-                <h3 className="mt-0 mb-12 text-color-primary">
-                  Produtora de cursos online
-                </h3>
-                <p className="m-0">
-                  Produziremos com você desde o planejamento da estrutura de seu curso, desenvolvimento de plataforma, gravações de conteúdo e lançamento de seu produto.
-                </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/servico05.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

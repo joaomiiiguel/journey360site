@@ -5,6 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import Button from '../elements/Button'
 import ButtonGroup from '../elements/ButtonGroup'
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -90,8 +91,9 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://tourranchoema.journey360.com.br" style={{ width: '100%', marginTop: 50 }}>
-                    Faça um tour virtual
+                    
+                  <Button tag="a" color="primary" wideMobile style={{ width: '100%', marginTop: 50 }}>
+                    <Link to="/TourRanchoEma" >Faça um tour virtual</Link>
                   </Button>
                 </ButtonGroup>
 

@@ -47,6 +47,8 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute path="/SobreNos" component={SobreNos} layout={LayoutDefault} />
           <AppRoute path="/Contato" component={Contato} layout={LayoutDefault} />
+          <AppRoute path="/TourRanchoEma" component={RanchoEma} layout={LayoutDefault} />
+          <AppRoute path="/TourMatutoSonhador" component={MatutoSonhador} layout={LayoutDefault} />
         </Switch>
       )} />
   );

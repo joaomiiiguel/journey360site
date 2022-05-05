@@ -92,7 +92,7 @@ const FeaturesSplit = ({
                   height={396} />
                 <ButtonGroup>
                     
-                  <Button tag="a" color="primary" wideMobile style={{ width: '100%', marginTop: 50 }}>
+                  <Button tag="a" color="primary" wideMobile target="_blank" style={{ width: '100%', marginTop: 50 }}>
                     <Link to="/TourRanchoEma" >Faça um tour virtual</Link>
                   </Button>
                 </ButtonGroup>
@@ -125,8 +125,8 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://tourmatutosonhador.journey360.com.br" style={{ width: '100%', marginTop: 50 }}>
-                    Faça um tour virtual
+                  <Button tag="a" color="primary" wideMobile target="_blank" style={{ width: '100%', marginTop: 50 }}>
+                    <Link to="/TourMatutoSonhador" >Faça um tour virtual</Link>
                   </Button>
                 </ButtonGroup>
               </div>

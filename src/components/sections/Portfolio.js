@@ -130,73 +130,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item ">
-              <div className="split-item-content  center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <h3 className="mt-10 mb-16 reveal-from-bottom text-color-primary" data-reveal-delay="200">
-                  Festa do Bode Rei
-                </h3>
-                <h5 className="mt-10 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                  Evento Virtual / Cabaceiras - PB
-                </h5>
-                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  A tradicional Festa do Bode Rei, acontece em Cabaceiras, no Cariri da Paraíba, celebrou 22 anos de existência e teve a sua primeira versão online, em um único dia, devido à pandemia de coronavírus. Toda diversidade estiveram presentes nesse novo formato e de um jeito dinâmico, sem perder a essência do tradicional.
-                  <br /><br />
-                  Realizamos a produção em parceria com o Sebrae PB e Prefeitura Municipal de Cabaceiras, além da produção audiovisual e transmissão do evento.
-                </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/BodeReiCapa.jpg')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://festadoboderei.com.br" style={{ width: '100%', marginTop: 50 }}>
-                    Visualize o projeto
-                  </Button>
-                </ButtonGroup>
-
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-
-                <h3 className="mt-10 mb-16 reveal-from-bottom text-color-primary" data-reveal-delay="200">
-                Dia D 2021 e 2020 - Fazenda Carnaúba 
-                </h3>
-                <h5 className="mt-10 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Evento Virtual / Taperoá - PB
-                </h5>
-                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                        Nós realizamos a produção do evento Dia D na Fazenda Carnaúba há 03 anos consecutivos (2019/2020 e 2021). A edição de 2019 foi presencial e reuniu quase 9 mil pessoas na Fazenda Carnaúba em Taperoá, com atividades de conhecimento, capacitação, negócios e cultura paraibana no cariri. <br />
-                        <br />
-                        Em 2020 e 2021 as edições foram remotas e gratuitas, transformando o dia a dia no campo e tradição da Carnaúba para o mundo, através do formato online. “Do campo ao digital” foi o tema das edições em que construímos todo o evento: a plataforma, transmissão, direção de materiais audiovisuais, parte gráfica e promoção do evento. Em parceria com o Sebrae PB e os administradores da Fazenda Carnaúba. <br />
-                    </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/DiaDCapa.jpg')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://fazendacarnauba.com/diad2021/index.html" style={{ width: '100%', marginTop: 50 }}>
-                  Visualize o projeto
-                  </Button>
-                </ButtonGroup>
-              </div>
-            </div>
+            
 
             <div className="split-item ">
               <div className="split-item-content  center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -227,6 +161,40 @@ const FeaturesSplit = ({
                   </Button>
                 </ButtonGroup>
 
+              </div>
+            </div>
+
+          <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+
+                <h3 className="mt-10 mb-16 reveal-from-bottom text-color-primary" data-reveal-delay="200">
+                Aventurei - Portal de Aventura 
+                </h3>
+                <h5 className="mt-10 mb-16 reveal-from-bottom" data-reveal-delay="200">
+                Site Institucional
+                </h5>
+                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                        Nós desenvolvemos uma plataforma de ecoturismo para conectar viajantes com novos lugares a serem explorados. Vem com uma lista de lugares para ser visitado onde o viajante poderá filtrar por estado e modalidade de aventura (rapel, camping, trilha, etc.). 
+                        <br /><br />
+                        O objetivo do projeto é auxiliar o viajante com todas as informações dos lugares para ser visitado e intermediamos a contratação de um guia de ecoturismo para auxiliar no passeio, se o viajante achar necessário. <br />
+                    </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/AventureiCapa.jpg')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+                <ButtonGroup>
+                  <Button tag="a" color="primary" wideMobile target="_blank" href="https://www.aventurei.com/" style={{ width: '100%', marginTop: 50 }}>
+                  Visualize o projeto
+                  </Button>
+                </ButtonGroup>
               </div>
             </div>
           </div>
